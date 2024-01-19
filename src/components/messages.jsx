@@ -50,7 +50,7 @@ const Messages = () => {
       // Check if the response is '69' and make an API call using Axios
       if (dateResponse === "69") {
         try {
-          const apiUrl = "https://dog.ceo/api/breeds/image/random/2";
+          const apiUrl = "https://dog.ceo/api/breeds/image/random";
 
           // Use Axios to make the API call (GET request)
           const response = await axios.get(apiUrl);
